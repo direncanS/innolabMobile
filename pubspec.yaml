@@ -1,0 +1,62 @@
+name: vienna_life_quality
+description: "Vienna Life Quality Calculation Project"
+publish_to: 'none'
+
+version: 1.0.0+7
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^5.0.0-release-candidate-9.2.1
+  shared_preferences: ^2.3.2
+  connectivity_plus: ^6.1.0
+  google_maps_flutter: ^2.9.0
+  http: ^1.2.2
+  intl: ^0.19.0
+  flutter_svg: ^2.0.10+1
+  geocoding: ^3.0.0
+  geolocator: ^13.0.1
+  percent_indicator: ^4.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/image/
+    - assets/font/
+    - assets/language/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/font/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/font/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/font/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/font/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/font/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/font/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/font/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/font/Poppins-Black.ttf
+          weight: 900
